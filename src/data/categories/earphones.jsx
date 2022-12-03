@@ -5,17 +5,17 @@ const earphones = [
         "name": "YX1 Wireless Earphones",
         "shortName": "YX1",
         "image": {
-            "mobile": "/images/product-yx1-earphones/mobile/image-product.jpg",
-            "tablet": "/images/product-yx1-earphones/tablet/image-product.jpg",
-            "desktop": "/images/product-yx1-earphones/desktop/image-product.jpg"
+            "mobile": "images/product-yx1-earphones/mobile/image-product.jpg",
+            "tablet": "images/product-yx1-earphones/tablet/image-product.jpg",
+            "desktop": "images/product-yx1-earphones/desktop/image-product.jpg"
         },
-        "cartImage": "/images/cart/image-yx1-earphones.jpg",
+        "cartImage": "images/cart/image-yx1-earphones.jpg",
         "category": "earphones",
 
         "categoryImage": {
-            "mobile": "/images/category-earphones/mobile/image-yx1-earphones.jpg",
-            "tablet": "/images/category-earphones/tablet/image-yx1-earphones.jpg",
-            "desktop": "/images/category-earphones/desktop/image-yx1-earphones.jpg"
+            "mobile": "images/category-earphones/mobile/image-yx1-earphones.jpg",
+            "tablet": "images/category-earphones/tablet/image-yx1-earphones.jpg",
+            "desktop": "images/category-earphones/desktop/image-yx1-earphones.jpg"
         },
         "new": true,
         "price": 599,
@@ -48,19 +48,19 @@ const earphones = [
         ],
         "gallery": {
             "first": {
-                "mobile": "/images/product-yx1-earphones/mobile/image-gallery-1.jpg",
-                "tablet": "/images/product-yx1-earphones/tablet/image-gallery-1.jpg",
-                "desktop": "/images/product-yx1-earphones/desktop/image-gallery-1.jpg"
+                "mobile": "images/product-yx1-earphones/mobile/image-gallery-1.jpg",
+                "tablet": "images/product-yx1-earphones/tablet/image-gallery-1.jpg",
+                "desktop": "images/product-yx1-earphones/desktop/image-gallery-1.jpg"
             },
             "second": {
-                "mobile": "/images/product-yx1-earphones/mobile/image-gallery-2.jpg",
-                "tablet": "/images/product-yx1-earphones/tablet/image-gallery-2.jpg",
-                "desktop": "/images/product-yx1-earphones/desktop/image-gallery-2.jpg"
+                "mobile": "images/product-yx1-earphones/mobile/image-gallery-2.jpg",
+                "tablet": "images/product-yx1-earphones/tablet/image-gallery-2.jpg",
+                "desktop": "images/product-yx1-earphones/desktop/image-gallery-2.jpg"
             },
             "third": {
-                "mobile": "/images/product-yx1-earphones/mobile/image-gallery-3.jpg",
-                "tablet": "/images/product-yx1-earphones/tablet/image-gallery-3.jpg",
-                "desktop": "/images/product-yx1-earphones/desktop/image-gallery-3.jpg"
+                "mobile": "images/product-yx1-earphones/mobile/image-gallery-3.jpg",
+                "tablet": "images/product-yx1-earphones/tablet/image-gallery-3.jpg",
+                "desktop": "images/product-yx1-earphones/desktop/image-gallery-3.jpg"
             }
         },
         "others": [
@@ -68,27 +68,27 @@ const earphones = [
                 "slug": "headphones/xx99-mark-one-headphones",
                 "name": "XX99 Mark I",
                 "image": {
-                    "mobile": "/images/shared/mobile/image-xx99-mark-one-headphones.jpg",
-                    "tablet": "/images/shared/tablet/image-xx99-mark-one-headphones.jpg",
-                    "desktop": "/images/shared/desktop/image-xx99-mark-one-headphones.jpg"
+                    "mobile": "images/shared/mobile/image-xx99-mark-one-headphones.jpg",
+                    "tablet": "images/shared/tablet/image-xx99-mark-one-headphones.jpg",
+                    "desktop": "images/shared/desktop/image-xx99-mark-one-headphones.jpg"
                 }
             },
             {
                 "slug": "headphones/xx59-headphones",
                 "name": "XX59",
                 "image": {
-                    "mobile": "/images/shared/mobile/image-xx59-headphones.jpg",
-                    "tablet": "/images/shared/tablet/image-xx59-headphones.jpg",
-                    "desktop": "/images/shared/desktop/image-xx59-headphones.jpg"
+                    "mobile": "images/shared/mobile/image-xx59-headphones.jpg",
+                    "tablet": "images/shared/tablet/image-xx59-headphones.jpg",
+                    "desktop": "images/shared/desktop/image-xx59-headphones.jpg"
                 }
             },
             {
                 "slug": "speakers/zx9-speaker",
                 "name": "ZX9 Speaker",
                 "image": {
-                    "mobile": "/images/shared/mobile/image-zx9-speaker.jpg",
-                    "tablet": "/images/shared/tablet/image-zx9-speaker.jpg",
-                    "desktop": "/images/shared/desktop/image-zx9-speaker.jpg"
+                    "mobile": "images/shared/mobile/image-zx9-speaker.jpg",
+                    "tablet": "images/shared/tablet/image-zx9-speaker.jpg",
+                    "desktop": "images/shared/desktop/image-zx9-speaker.jpg"
                 }
             }
         ]

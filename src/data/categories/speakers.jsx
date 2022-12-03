@@ -5,16 +5,16 @@ const speakers = [
         "name": "ZX7 Speaker",
         "shortName": "ZX7",
         "image": {
-            "mobile": "/images/product-zx7-speaker/mobile/image-product.jpg",
-            "tablet": "/images/product-zx7-speaker/tablet/image-product.jpg",
-            "desktop": "/images/product-zx7-speaker/desktop/image-product.jpg"
+            "mobile": "images/product-zx7-speaker/mobile/image-product.jpg",
+            "tablet": "images/product-zx7-speaker/tablet/image-product.jpg",
+            "desktop": "images/product-zx7-speaker/desktop/image-product.jpg"
         },
-        "cartImage": "/images/cart/image-zx7-speaker.jpg",
+        "cartImage": "images/cart/image-zx7-speaker.jpg",
         "category": "speakers",
         "categoryImage": {
-            "mobile": "/images/category-speakers/mobile/image-zx7.jpg",
-            "tablet": "/images/category-speakers/tablet/image-zx7.jpg",
-            "desktop": "/images/category-speakers/desktop/image-zx7.jpg"
+            "mobile": "images/category-speakers/mobile/image-zx7.jpg",
+            "tablet": "images/category-speakers/tablet/image-zx7.jpg",
+            "desktop": "images/category-speakers/desktop/image-zx7.jpg"
         },
         "new": false,
         "price": 3500,
@@ -44,19 +44,19 @@ const speakers = [
         ],
         "gallery": {
             "first": {
-                "mobile": "/images/product-zx7-speaker/mobile/image-gallery-1.jpg",
-                "tablet": "/images/product-zx7-speaker/tablet/image-gallery-1.jpg",
-                "desktop": "/images/product-zx7-speaker/desktop/image-gallery-1.jpg"
+                "mobile": "images/product-zx7-speaker/mobile/image-gallery-1.jpg",
+                "tablet": "images/product-zx7-speaker/tablet/image-gallery-1.jpg",
+                "desktop": "images/product-zx7-speaker/desktop/image-gallery-1.jpg"
             },
             "second": {
-                "mobile": "/images/product-zx7-speaker/mobile/image-gallery-2.jpg",
-                "tablet": "/images/product-zx7-speaker/tablet/image-gallery-2.jpg",
-                "desktop": "/images/product-zx7-speaker/desktop/image-gallery-2.jpg"
+                "mobile": "images/product-zx7-speaker/mobile/image-gallery-2.jpg",
+                "tablet": "images/product-zx7-speaker/tablet/image-gallery-2.jpg",
+                "desktop": "images/product-zx7-speaker/desktop/image-gallery-2.jpg"
             },
             "third": {
-                "mobile": "/images/product-zx7-speaker/mobile/image-gallery-3.jpg",
-                "tablet": "/images/product-zx7-speaker/tablet/image-gallery-3.jpg",
-                "desktop": "/images/product-zx7-speaker/desktop/image-gallery-3.jpg"
+                "mobile": "images/product-zx7-speaker/mobile/image-gallery-3.jpg",
+                "tablet": "images/product-zx7-speaker/tablet/image-gallery-3.jpg",
+                "desktop": "images/product-zx7-speaker/desktop/image-gallery-3.jpg"
             }
         },
         "others": [
@@ -64,27 +64,27 @@ const speakers = [
                 "slug": "speakers/zx9-speaker",
                 "name": "ZX9 Speaker",
                 "image": {
-                    "mobile": "/images/shared/mobile/image-zx9-speaker.jpg",
-                    "tablet": "/images/shared/tablet/image-zx9-speaker.jpg",
-                    "desktop": "/images/shared/desktop/image-zx9-speaker.jpg"
+                    "mobile": "images/shared/mobile/image-zx9-speaker.jpg",
+                    "tablet": "images/shared/tablet/image-zx9-speaker.jpg",
+                    "desktop": "images/shared/desktop/image-zx9-speaker.jpg"
                 }
             },
             {
                 "slug": "headphones/xx99-mark-one-headphones",
                 "name": "XX99 Mark I",
                 "image": {
-                    "mobile": "/images/shared/mobile/image-xx99-mark-one-headphones.jpg",
-                    "tablet": "/images/shared/tablet/image-xx99-mark-one-headphones.jpg",
-                    "desktop": "/images/shared/desktop/image-xx99-mark-one-headphones.jpg"
+                    "mobile": "images/shared/mobile/image-xx99-mark-one-headphones.jpg",
+                    "tablet": "images/shared/tablet/image-xx99-mark-one-headphones.jpg",
+                    "desktop": "images/shared/desktop/image-xx99-mark-one-headphones.jpg"
                 }
             },
             {
                 "slug": "headphones/xx59-headphones",
                 "name": "XX59",
                 "image": {
-                    "mobile": "/images/shared/mobile/image-xx59-headphones.jpg",
-                    "tablet": "/images/shared/tablet/image-xx59-headphones.jpg",
-                    "desktop": "/images/shared/desktop/image-xx59-headphones.jpg"
+                    "mobile": "images/shared/mobile/image-xx59-headphones.jpg",
+                    "tablet": "images/shared/tablet/image-xx59-headphones.jpg",
+                    "desktop": "images/shared/desktop/image-xx59-headphones.jpg"
                 }
             }
         ]
@@ -95,16 +95,16 @@ const speakers = [
         "name": "ZX9 Speaker",
         "shortName": "ZX9",
         "image": {
-            "mobile": "/images/product-zx9-speaker/mobile/image-product.jpg",
-            "tablet": "/images/product-zx9-speaker/tablet/image-product.jpg",
-            "desktop": "/images/product-zx9-speaker/desktop/image-product.jpg"
+            "mobile": "images/product-zx9-speaker/mobile/image-product.jpg",
+            "tablet": "images/product-zx9-speaker/tablet/image-product.jpg",
+            "desktop": "images/product-zx9-speaker/desktop/image-product.jpg"
         },
-        "cartImage": "/images/cart/image-zx9-speaker.jpg",
+        "cartImage": "images/cart/image-zx9-speaker.jpg",
         "category": "speakers",
         "categoryImage": {
-            "mobile": "/images/category-speakers/mobile/image-zx9.jpg",
-            "tablet": "/images/category-speakers/tablet/image-zx9.jpg",
-            "desktop": "/images/category-speakers/desktop/image-zx9.jpg"
+            "mobile": "images/category-speakers/mobile/image-zx9.jpg",
+            "tablet": "images/category-speakers/tablet/image-zx9.jpg",
+            "desktop": "images/category-speakers/desktop/image-zx9.jpg"
         },
         "new": true,
         "price": 4500,
@@ -134,19 +134,19 @@ const speakers = [
         ],
         "gallery": {
             "first": {
-                "mobile": "/images/product-zx9-speaker/mobile/image-gallery-1.jpg",
-                "tablet": "/images/product-zx9-speaker/tablet/image-gallery-1.jpg",
-                "desktop": "/images/product-zx9-speaker/desktop/image-gallery-1.jpg"
+                "mobile": "images/product-zx9-speaker/mobile/image-gallery-1.jpg",
+                "tablet": "images/product-zx9-speaker/tablet/image-gallery-1.jpg",
+                "desktop": "images/product-zx9-speaker/desktop/image-gallery-1.jpg"
             },
             "second": {
-                "mobile": "/images/product-zx9-speaker/mobile/image-gallery-2.jpg",
-                "tablet": "/images/product-zx9-speaker/tablet/image-gallery-2.jpg",
-                "desktop": "/images/product-zx9-speaker/desktop/image-gallery-2.jpg"
+                "mobile": "images/product-zx9-speaker/mobile/image-gallery-2.jpg",
+                "tablet": "images/product-zx9-speaker/tablet/image-gallery-2.jpg",
+                "desktop": "images/product-zx9-speaker/desktop/image-gallery-2.jpg"
             },
             "third": {
-                "mobile": "/images/product-zx9-speaker/mobile/image-gallery-3.jpg",
-                "tablet": "/images/product-zx9-speaker/tablet/image-gallery-3.jpg",
-                "desktop": "/images/product-zx9-speaker/desktop/image-gallery-3.jpg"
+                "mobile": "images/product-zx9-speaker/mobile/image-gallery-3.jpg",
+                "tablet": "images/product-zx9-speaker/tablet/image-gallery-3.jpg",
+                "desktop": "images/product-zx9-speaker/desktop/image-gallery-3.jpg"
             }
         },
         "others": [
@@ -154,27 +154,27 @@ const speakers = [
                 "slug": "speakers/zx7-speaker",
                 "name": "ZX7 Speaker",
                 "image": {
-                    "mobile": "/images/shared/mobile/image-zx7-speaker.jpg",
-                    "tablet": "/images/shared/tablet/image-zx7-speaker.jpg",
-                    "desktop": "/images/shared/desktop/image-zx7-speaker.jpg"
+                    "mobile": "images/shared/mobile/image-zx7-speaker.jpg",
+                    "tablet": "images/shared/tablet/image-zx7-speaker.jpg",
+                    "desktop": "images/shared/desktop/image-zx7-speaker.jpg"
                 }
             },
             {
                 "slug": "headphones/xx99-mark-one-headphones",
                 "name": "XX99 Mark I",
                 "image": {
-                    "mobile": "/images/shared/mobile/image-xx99-mark-one-headphones.jpg",
-                    "tablet": "/images/shared/tablet/image-xx99-mark-one-headphones.jpg",
-                    "desktop": "/images/shared/desktop/image-xx99-mark-one-headphones.jpg"
+                    "mobile": "images/shared/mobile/image-xx99-mark-one-headphones.jpg",
+                    "tablet": "images/shared/tablet/image-xx99-mark-one-headphones.jpg",
+                    "desktop": "images/shared/desktop/image-xx99-mark-one-headphones.jpg"
                 }
             },
             {
                 "slug": "headphones/xx59-headphones",
                 "name": "XX59",
                 "image": {
-                    "mobile": "/images/shared/mobile/image-xx59-headphones.jpg",
-                    "tablet": "/images/shared/tablet/image-xx59-headphones.jpg",
-                    "desktop": "/images/shared/desktop/image-xx59-headphones.jpg"
+                    "mobile": "images/shared/mobile/image-xx59-headphones.jpg",
+                    "tablet": "images/shared/tablet/image-xx59-headphones.jpg",
+                    "desktop": "images/shared/desktop/image-xx59-headphones.jpg"
                 }
             }
         ]

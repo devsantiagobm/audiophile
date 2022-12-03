@@ -27,7 +27,7 @@ function Content() {
                 viewport={{ once: true }}>
                 <div className="content__image">
                     <picture className="content__picture">
-                        <img src={`/images/home/${currentDevice}/image-speaker-zx9.png`} alt="Speaker image" className="content__img" />
+                        <img src={`images/home/${currentDevice}/image-speaker-zx9.png`} alt="Speaker image" className="content__img" />
                     </picture>
                 </div>
 
