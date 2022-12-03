@@ -1,0 +1,31 @@
+html {
+    --orange: #D87D4A;
+    --light-orange: #FBAF85;
+    --dark-gray: #191919;
+    --black: #000000;
+    --gray: #4C4C4C;
+    --slate: #888888;
+    --white: #FFFFFF;
+    --silver: #F1F1F1;
+    --light-silver: #FAFAFA;
+    --error: #ff1929;
+
+    font-family:  'Manrope',sans-serif;
+    font-weight: 400;
+
+    --padding-sides-home: 8vw; 
+
+    color-scheme: dark;
+    background-color: var(--silver);
+    color: var(--black);
+}
+
+::selection{
+    background-color: var(--dark-gray);
+    color: var(--silver);
+}
+
+html{
+    max-width: 100vw;
+    overflow-x: hidden;
+}

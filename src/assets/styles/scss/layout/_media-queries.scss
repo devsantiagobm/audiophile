@@ -1,0 +1,34 @@
+@use './header';
+@use '../home/hero';
+@use '../home/main';
+@use '../layout/footer';
+@use '../product-page/product-page';
+@use '../checkout/checkout';
+@use '../layout/cart';
+
+@media screen and (max-width: 1142px) {
+    @include checkout.media-checkout-1142px();
+}
+
+@media screen and (max-width: 892px) {
+    html {
+        font-size: 17px;
+        --padding-sides-home: 6vw;
+    }
+
+    @include header.media-892px();
+    @include hero.media-892px();
+    @include main.media-main-892px();
+    @include footer.media-footer-892px();
+    @include product-page.media-product-page-892px();
+    @include checkout.media-checkout-892px();
+}
+
+@media screen and (max-width: 572px){
+    @include hero.media-hero-572px();
+    @include main.media-main-572px();
+    @include product-page.media-product-page-572px();
+    @include cart.media-cart-572px();
+    @include checkout.media-checkout-572px();
+    @include footer.media-footer-572px();
+}

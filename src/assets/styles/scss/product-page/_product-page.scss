@@ -1,0 +1,330 @@
+@use "../mixins";
+
+.page-product {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    padding: 10vh var(--padding-sides-home);
+
+    &__hero {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        column-gap: clamp(56px, 6vw, 90px);
+        row-gap: 24px;
+        align-items: center;
+    }
+
+    &__information {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__new {
+        color: var(--orange);
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    &__name {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 46px;
+        text-transform: uppercase;
+    }
+
+    &__paragraph {
+        color: var(--slate);
+        line-height: 1.5rem;
+        font-size: .9rem;
+    }
+
+    &__price {
+        font-weight: 700;
+    }
+
+    &__actions {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    &__buttons {
+        display: flex;
+    }
+
+    &__button,
+    &__quantity {
+        width: 45px;
+        aspect-ratio: 1;
+        display: grid;
+        place-items: center;
+        padding: 8px;
+        font-size: .8rem;
+        background-color: var(--silver);
+        font-weight: 700;
+        user-select: none;
+    }
+
+    &__button {
+        font-size: .65rem;
+        cursor: pointer;
+        color: var(--gray);
+        transition: filter .2s ease;
+
+        &:hover {
+            filter: brightness(90%);
+        }
+    }
+
+    &__add,
+    &__link {
+        cursor: pointer;
+        background-color: var(--orange);
+        color: var(--white);
+        @include mixins.button();
+    }
+
+    &__extra {
+        display: flex;
+        gap: 64px;
+
+        &>* {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        &-title {
+            font-size: 1.3rem;
+            letter-spacing: 3px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+
+    &__features {
+        width: 130%;
+    }
+
+    &__in-box {
+        width: 70%;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    &__item {
+        align-items: center;
+        display: flex;
+        color: var(--slate);
+        font-size: .85rem;
+        gap: 8px;
+    }
+
+    &__orange {
+        font-size: 1rem;
+        color: var(--orange);
+        font-weight: 700;
+    }
+
+    &__gallery {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "one one three three three"
+            "two two three three three";
+        gap: 40px;
+
+        &>* {
+            width: 100%;
+            border-radius: 6px;
+            overflow: hidden;
+
+            height: 100%;
+
+            &:nth-child(1) {
+                grid-area: one;
+            }
+
+            &:nth-child(2) {
+                grid-area: two;
+            }
+
+            &:nth-child(3) {
+                grid-area: three;
+            }
+        }
+    }
+
+    &__gallery-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    &__others {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+        margin: 64px 0;
+    }
+
+    &__others-list {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 64px;
+        column-gap: 48px;
+    }
+
+    &__other {
+        max-width: 340px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    &__other-name {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+
+    }
+
+    &__advice {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        position: fixed;
+        right: 24px;
+        z-index: 1;
+        background-color: #039e4c;
+        color: var(--white);
+        padding: 16px 32px;
+        user-select: none;
+        font-size: .9rem;
+        bottom: 24px;
+        font-weight: 600;
+    }
+
+    &__bold {
+        font-weight: 700;
+    }
+
+    &__check {
+        width: 24px;
+        height: 24px;
+        padding: 4px;
+        display: grid;
+        place-items: center;
+        margin-right: 8px;
+        aspect-ratio: 1;
+        background-color: var(--white);
+        color: #039e4c;
+        border-radius: 50%;
+    }
+
+    &__back {
+        --y: 0;
+        display: flex;
+        position: absolute;
+        top: var(--y);
+        left: calc(var(--padding-sides-home));
+        background-color: var(--white);
+        padding: 12px;
+        border-radius: 50%;
+        align-items: center;
+        gap: 124px;
+        color: var(--slate);
+        cursor: pointer;
+        text-decoration: underline;
+        cursor: pointer;
+
+        & * {
+            color: var(--gray);
+        }
+    }
+}
+
+@mixin media-product-page-892px {
+
+    .page-product {
+        &__extra {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            row-gap: 56px;
+        }
+
+        &__features,
+        &__in-box {
+            width: 100%;
+            gap: 16px;
+        }
+
+        &__gallery {
+            gap: 16px;
+            grid-template-rows: repeat(3, 200px);
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-areas: "one one one two two two"
+                "three three three three three three"
+                "three three three three three three";
+        }
+    }
+}
+
+@mixin media-product-page-572px{
+    .page-product{
+
+        &__name{
+            font-size: 2rem;
+        }
+
+
+        &__paragraph{
+            font-size: .85rem;
+        }
+
+        &__actions{
+            flex-wrap: wrap;  
+
+            & > * {
+                &:nth-child(1){
+                    min-width: 135px;
+                }
+
+
+                &:nth-child(2){
+                    min-width: 170px;
+                }
+            }
+        }
+
+        
+        &__gallery {
+            gap: 16px;
+            grid-template-rows: repeat(3, 250px);
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: "one"
+                "two"
+                "three ";
+        }
+
+        &__advice {
+            position: fixed;
+            right: 6px;
+
+            width: calc(100vw - 12px);
+            padding: 16px;
+            font-size: .7rem;
+        }
+    
+    }
+}

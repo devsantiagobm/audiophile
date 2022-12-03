@@ -1,0 +1,51 @@
+@use '../mixins';
+
+.product{
+    display: flex;
+    column-gap: 10vw;
+    row-gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    &:nth-child(even){
+        flex-direction: row-reverse;
+    }
+
+    & > *{
+        width: 100%;
+        max-width: 450px;
+    }
+
+    &__information{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &__new{
+        text-transform: uppercase;
+        color: var(--orange);
+        letter-spacing: 5px;
+        font-size: 1rem;
+    }
+
+    &__name{
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+    }
+
+    &__paragraph{
+        color: var(--slate);
+        line-height: 1.5rem;
+        font-size: .9rem;
+    }
+
+    &__button{
+        background-color: var(--orange);
+        color: var(--white);
+        @include mixins.button();
+    }
+
+}

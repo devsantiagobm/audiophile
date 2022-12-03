@@ -1,0 +1,16 @@
+.title {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    color: var(--white);
+    background-color: var(--dark-gray);
+    text-transform: uppercase;
+    padding: 5vh 0;
+    font-size: 1rem;
+
+    &__text {
+        font-weight: 600;
+        letter-spacing: 2px;
+
+    }
+}
